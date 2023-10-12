@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import socketIoClient from 'socket.io-client';
 import DataTable from './DataTable';
 
-const ENDPOINT = 'http://localhost:3001';
+const ENDPOINT = 'http://localhost:3000';
 
 function App() {
     const [datasets, setDatasets] = useState([]);

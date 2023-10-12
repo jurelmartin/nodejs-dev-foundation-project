@@ -1,2 +1,5 @@
-# nodejs-dev-foundation-final-project
-# nodejs-dev-foundation-final-project
+# nodejs-dev-foundation-project
+
+## Module 1
+
+See README of `module1` folder.
