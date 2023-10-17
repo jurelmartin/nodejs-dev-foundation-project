@@ -1,6 +1,6 @@
 import React from 'react';
 
-function DataTable({ data }) {
+function DataTable({data}) {
   return (
     <table>
       <thead>
