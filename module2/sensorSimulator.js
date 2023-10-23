@@ -37,7 +37,7 @@ function generateSensorData() {
 
 // Scheduled task for sensor data simulation
 // This cron job is set to run every 10 minutes. You can adjust the timing as needed.
-cron.schedule('*/1 * * * *', async function () {
+cron.schedule('*/2 * * * *', async function () {
   console.log('Generating simulated sensor data...');
 
   // Create new sensor data
