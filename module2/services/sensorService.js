@@ -15,7 +15,6 @@ const createSensorData = async (sensorDataBody) => {
     humidity_percent,
     pressure_hpa,
   } = sensorDataBody;
-  console.log({sensorDataBody});
 
   // if (sensorDataBody.temperature_celsius > 20) {
   //   await emailService.sendEmail(

@@ -24,7 +24,7 @@ const sendEmail = async (
 
   try {
     const sendMailResponse = await sgMail.send(msg);
-    console.log('sendMailResponse', sendMailResponse);
+    // console.log('sendMailResponse', sendMailResponse);
   } catch (error) {
     console.error(error);
 
